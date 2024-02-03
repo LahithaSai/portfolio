@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_portfolio.css">
     <link rel="stylesheet" href="timeline.css">
-    <link rel="stylesheet" href="js/script_portfolio.js">
+    <link rel="stylesheet" href="script_portfolio.js">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="testimonial.css">
+    <!-- swiping -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<!--  -->
     <title>my awesome Portfolio</title>
 </head>
 
@@ -37,8 +42,8 @@
         <a href="#nav1"><button class="floating-btn" id="myBtn"><i class="fas fa-arrow-up"></i></button></a>
     </div>
     <!-- end of floating icon -->
-    <section id="home">
-        <div class="home-div" style="background-image: url('background_portfolio.jpg');">
+    <section id="home" style="background-image: url('lahi_dp_no_bg.png');">
+        <div class="home-div">
             <div class="home-content">
                 <div class="home-item1">
                     <div>
@@ -71,21 +76,27 @@
                     Hello! this is Lahitha Sai, I am a student in the field of INFORMATION TECHNOLOGY.
                     I am passionate towards my goals and looking forward for better opportunities to nourish my career.
 
-                    The programming languages I can use for coding are java, python, c, c++, and I am familliar with some of
+                    The programming languages I can use for coding are java, python, c, c++, and I am familliar with
+                    some of
                     the languages used in web development those are HTML 5, CSS 3, JS, and along with that I can use
                     bootstrap 5.
 
-                    I also participated in some of the workshops organised by our college in collaboration of some companies
-                    like SuprajaTechnologies, as well as done a small project called" Data Analysis on Liver Data set Using
+                    I also participated in some of the workshops organised by our college in collaboration of some
+                    companies
+                    like SuprajaTechnologies, as well as done a small project called" Data Analysis on Liver Data set
+                    Using
                     Python".
 
-                    I am having experience of 3 months as HRTrainee and 2 months as an intern of Grapic designing at Growth
+                    I am having experience of 3 months as HRTrainee and 2 months as an intern of Grapic designing at
+                    Growth
                     FLow agency, and completed my internship on CYBER SECURITY focussing on web appilication testing.
                 </p>
             </div>
             <div class="lkd">
-                <h3>check my linkedin for more details <a href="https://www.linkedin.com/in/lahitha-sai-andavarapu-37a230220/"><i class="fab fa-linkedin"></i></a></h3>
-                
+                <h3>check my linkedin for more details <a
+                        href="https://www.linkedin.com/in/lahitha-sai-andavarapu-37a230220/"><i
+                            class="fab fa-linkedin"></i></a></h3>
+
             </div>
         </div>
     </section>
@@ -181,6 +192,8 @@
                     required></textarea>
                 <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 <button type="submit">Send</button>
+                <!-- Box icon Css -->
+                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
             </form>
 
         </div>
@@ -189,11 +202,82 @@
         </div>
 
     </section>
+    <!-- testinomail code -->
+    <section class="testimonial-container">
+        <div>
+            <h2>Testimonials</h2>
+        </div>
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="contact.jpg" alt="" class="image">
+                    <p>
+                        I know Lahiha from 3 years, she started Web development in 2021.
+                        She knows almost all major parts to be known in CSS and HTML very well.
+                        She always tried to understand the thing and move on. 
+                    </p>
+                    <i class='bx bxs-quote-left quote-icon'></i>
+                    <div class="details">
+                        <span class="name">Archana</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="contact.jpg" alt="" class="image">
+                    <p>
+                        I know Lahiha from 3 years, she started Web development in 2021.
+                        She knows almost all major parts to be known in CSS and HTML very well.
+                        She always tried to understand the thing and move on. 
+                    </p>
+                    <i class='bx bxs-quote-left quote-icon'></i>
+                    <div class="details">
+                        <span class="name">Vaishnavi</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="contact.jpg" alt="" class="image">
+                    <p>
+                        I know Lahiha from 3 years, she started Web development in 2021.
+                        She knows almost all major parts to be known in CSS and HTML very well.
+                        She always tried to understand the thing and move on. 
+                    </p>
+                    <i class='bx bxs-quote-left quote-icon'></i>
+                    <div class="details">
+                        <span class="name">Jyothsna</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+  
+        </div>
+    </section>
+    <!-- testinomial end -->
+    <div class="count">
+        <!-- hitwebcounter Code START -->
+        <h4>View Count:</h4>
+        <a target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=11163120&style=0024&nbdigits=5&type=page&initCount=0"
+                title="Counter Widget" Alt="Visit counter For Websites" border="0" /></a>
+    </div>
     <section>
         <div class="footer">
             <p>Designed by lahitha</p>
         </div>
     </section>
+    <script>
+var swiper = new Swiper(".swiper-container", {
+  slidesPerView: "auto",
+  freeMode: true,
+  mousewheel: true,
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    draggable: true
+  }
+});
+      </script>
 </body>
 
 </html>

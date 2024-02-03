@@ -3,10 +3,11 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  
 }
 body{
   background: linear-gradient(rgba(110, 168, 215, 0.1), rgba(84, 171, 241, 0.4));
-
+  overflow-x: hidden;
   background-size: cover;
   background-blend-mode: normal ;
   
@@ -106,11 +107,11 @@ li:hover{
 /* float icon end */
 /* Home start */
 .home-div{
-  
+  background-image: url("background_portfolio.jpg");
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 61vh;
   width:100%;
   display: flex;
   justify-content: center;
@@ -118,7 +119,7 @@ li:hover{
 .home-content{
   display:flex;
   width:80%;
-  height: 60vh;
+  height: 61vh;
   justify-content: space-around;
   align-items: center;
 }
@@ -222,6 +223,14 @@ li:hover{
   align-items: center;
 }
 /* Contact me -end */
+.count{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+}
+.count h4{
+  padding-left:13px;
+}
 /* footer start */
 .footer{
   background-color: #555;
