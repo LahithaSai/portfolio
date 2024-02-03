@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_portfolio.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="js/script_portfolio.js">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>my awesome Portfolio</title>
+</head>
+
+<body>
+    <script>
+
+        // Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <div class="nav" id="nav1">
+        <div class="navbar">
+            <div class="nav-head">
+                <div class="nav-head1">
+                    <img src="images/logo.jpg" alt="">
+                </div>
+                <div class="nav-head2">
+                    <h1>My Portfolio</h1>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="icon"><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                    <li class="icon"><a href="#about"><i class="fas fa-address-card"></i>About</a></li>
+                    <li class="icon"><a href="#education"><i class="fas fa-user-graduate"></i>Education</a></li>
+                    <li class="icon"><a href="#projects"><i class="fas fa-laptop-code"></i>Projects</a></li>
+                    <li class="icon"><a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="floating">
+        <a href="#nav1"><button class="floating-btn" id="myBtn"><i class="fas fa-arrow-up"></i></button></a>
+    </div>
+    <!-- end of floating icon -->
+    <section id="home">
+        <div class="home-div">
+            <div class="home-content">
+                <div class="home-item1">
+                    <div>
+                        <h1>Hello! I'm</h1>
+                    </div>
+                    <div>
+                        <h1>A Lahitha Sai</h1>
+                    </div>
+                    <div>
+                        <h3>Front End Developer</h3>
+                    </div>
+                    <div class="button1">
+                        <button><a href="resume_updated.pdf" download>Download Resume</a></button>
+                    </div>
+                </div>
+                <div class="home-item2">
+                    <img src="./images/lahi_dp_no_bg.png" alt="" class="profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container-about">
+            <div class="head-about">
+                <h2>All About Me</h2>
+            </div>
+            <div class="content-left">
+                <p>
+                    Hello! this is Lahitha Sai, I am a student in the field of INFORMATION TECHNOLOGY.
+                    I am passionate towards my goals and looking forward for better opportunities to nourish my career.
+
+                    The programming languages I can use for coding are java, python, c, c++, and I am familliar with some of
+                    the languages used in web development those are HTML 5, CSS 3, JS, and along with that I can use
+                    bootstrap 5.
+
+                    I also participated in some of the workshops organised by our college in collaboration of some companies
+                    like SuprajaTechnologies, as well as done a small project called" Data Analysis on Liver Data set Using
+                    Python".
+
+                    I am having experience of 3 months as HRTrainee and 2 months as an intern of Grapic designing at Growth
+                    FLow agency, and completed my internship on CYBER SECURITY focussing on web appilication testing.
+                </p>
+            </div>
+            <div class="lkd">
+                <h3>check my linkedin for more details <a href="https://www.linkedin.com/in/lahitha-sai-andavarapu-37a230220/"><i class="fab fa-linkedin"></i></a></h3>
+                
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <main class="row">
+                <!-- education starts -->
+                <section class="col">
+
+                    <header class="title">
+                        <h2>EDUCATION</h2>
+                    </header>
+                    <div class="contents">
+                        <div class="box">
+                            <h4>2021-2025</h4>
+                            <h2>Bachelor's Degree</h2>
+                            <p>I am pusuing my Bachelors degree at AITAM Tekkali.
+                                In the stream of Information Technology.
+                                I am Pursuing my honors degree in Data Science.
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <h4>2019-2021</h4>
+                            <h2>Intermediate</h2>
+                            <p>
+                                I have pursued my Intermediate at Viswajyothi Jr. College Tekkali.
+                                In the branch of MPC.
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <h4>2019</h4>
+                            <h2>SSC</h2>
+                            <p>
+                                I have completed my SSC at RCM School Tekkali.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- educatio ends -->
+                <!-- experience starts -->
+                <section class="col">
+                    <header class="title">
+                        <h2>EXPERIENCE</h2>
+                    </header>
+                    <div class="contents">
+                        <div class="box">
+                            <h4>Jul 2023 - Dec 2023</h4>
+                            <h2>Cyber Security Intern</h2>
+                            <p>
+                                I have completed Six month virtual internship from Supraja Technologies, Vijayawada.
+                                Learned about different vulnerabilities of weba applications, VAPT.
+                                Worked on different tools like kali linux and performed phishing etc.
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <h4>Jun 2023 - Jul 2023</h4>
+                            <h2>Digital Marketing Intern</h2>
+                            <p>
+                                I have done a one month virtual internship at Exposys Data Labs.
+                                I have worked on different topics like Email Marketing and lead generation.
+                                worked on " ways to improve reach of an organisation through social media".
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <h4>2021-2025</h4>
+                            <h2>Graphic Designer</h2>
+                            <p>
+                                I have done a two month Internship at Growth Flow Pvt Ltd.
+                                Worked on different platforms like Canva and prepared posters, posts, ppts etc.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- experience ends -->
+            </main>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="left-container">
+
+            <form action="https://api.web3forms.com/submit" method="POST" onclick="reset()">
+                <h2>Get In Touch</h2>
+                <input type="hidden" name="apikey" value="8acca22c-f3e3-41f1-965b-a2ae6bdd147e">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <input type="email" name="email" id="email" placeholder="Email Id" required>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+                <textarea name="message" id="message" rows="4" cols="33" placeholder="How can I help You"
+                    required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+        <div class="right-container">
+            <img class="c-img" src="./images/contact.jpg" alt="">
+        </div>
+
+    </section>
+    <section>
+        <div class="footer">
+            <p>Designed by lahitha</p>
+        </div>
+    </section>
+</body>
+
+</html>
