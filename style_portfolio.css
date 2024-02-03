@@ -106,7 +106,7 @@ li:hover{
 /* float icon end */
 /* Home start */
 .home-div{
-  background-image: url("background_portfolio.jpg");
+  
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
